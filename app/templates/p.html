@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, {{ pdata.name }}!</h1>
+    <div>
+        <table>
+            <tr>
+                <td>Politician Name</td>
+                <td>{{ ppdata.name }}</td>
+            </tr>
+            <tr>
+                <td>Influence</td>
+                <td>{{ pdata.inf }}</td>
+            </tr>
+            <tr>
+                <td>Funding</td>
+                <td>{{ pdata.funds }}</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
