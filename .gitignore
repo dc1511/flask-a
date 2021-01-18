@@ -1,0 +1,4 @@
+.venv
+.cpython
+__pycache__
+venv
