@@ -2,3 +2,5 @@
 .cpython
 __pycache__
 venv
+.cpython
+.pyc
